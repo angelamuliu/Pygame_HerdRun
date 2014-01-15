@@ -1,0 +1,5 @@
+>flashing pen when holding animal / arrow (CHECK)
+>TUTORIAL!!! (CHECK)
+>Notification when holding animal -> can't attack (CHECK)
+>Flashing time bar when running out
+>Prevent crashing when game is over (CHECK)

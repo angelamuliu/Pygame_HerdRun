@@ -1,0 +1,153 @@
+
+-----------------------------------
+
+AMLIU (D)
+15-112 Term project time sheet
+TOTAL TIME SPENT: ~50-60 hours
+
+NOTE: Unfortunately, I have only recently started to keep track of my progress as I was not aware of the requirement of a timesheet when I was getting my headstart on the project. Therefore, information before 4/12/2013 may be inaccurate time-wise and may miss a few features coded, though I will try my best to recount.
+
+-----------------------------------
+
+
+PROJECT START...4/11/2013 - ~15-25 hours
+>Set up basic framework (run, draw, etc)
+>Added music to game
+>Imported temporary images for animal, monster, player
+>Stored variables in global lists
+>Enabled single player movement
+>Added direction facing detecion for player
+>Added edge detection
+>Fixed bugs with getting stuck on edges
+>Transfered code to be class based
+>Recreated player class
+>Added animal class
+>Enabled random movement for animals
+>Enabled direction facing detection for animals
+>Added edgecheck for animals as well as animal collision check (bouncing effect)
+>Added unique wander/direction change time for each animal
+>Added empty monster class for future
+>Added powerup class
+>Spawn random powerups on board
+>Added 'expanding' effect with powerups
+>Added SPEED BOOST powerup to have an effect
+>Made new file "UTIL" to hold misc files, clean up main code
+>Added top bar UI
+>Fixed edgecheck to account for top bar UI (and other code)
+>Added powerup display in UI
+>Fixed bug with empty powerup crash
+
+
+4/11/2013 - 4 hours
+>Fleshed out monster object class
+>Added AI to monster - seeks out closest animal
+>Made animals 'eaten' by monster
+
+
+4/12/2013 - 2 hours
+>Fixed bugs with animals eaten and animals picked up by player
+>Enabled animals to run away from monster when in certain radius
+>Fixed up some bugs withanimal facing direction when running
+
+
+4/13/2013 - 3 hours
+>Added freeze effect - monster now stops when freeze powerup used
+>Fixed animal "bumping" against edges when running
+>Allowed player to pick up and drop animals
+>Adjusted animal size
+
+
+4/14/2013 - 3 hours
+>Added fence area and left area UI for future information
+>Fixed edgecheck for animals
+>Added special edgecheck for player to enable movement in fence area
+>Fixed up some bugs with fence area and getting stuck
+
+
+4/15/2013 - 3 hours
+>Added sensing of player location in fence and adding score
+>Added basic point system
+>Added point display in top left
+>Added sprite animation (Herder and cows)
+>Fixed up more bugs with fence area
+
+
+4/16/2013 - 4 hours
+>Added sprite animation (monster)
+>Fixed up more bugs with fence area (getting stuck to top/bottom)
+>Partially fixed bug when player picks up last animal and monster can't locate target
+>Added time to score object
+>Added display of time
+>Added color change depending on time left on time bar
+>Added framework to staimina and attacks
+>Added time penalties and bonuses with animals eaten/picked up
+>Added invulnerability when attacked by monster + flashing effect
+>Added staimina regernation and animal staimina boost bonus
+
+4/17/2013 - 1 hours
+>Added event display for monster/player collision and animal rescue
+>Added hand display
+
+4/21/2013 - 3 hours
+>Added lightning attack rectangle boxes
+>Added monster reaction to freeze style powers/attacks
+>Added monster sensitivity to lighting
+>Added food ability
+>Fixed bugs with food drawing
+>Added monster priority tracking for food
+>Fixed food bugs while carrying animals or w/o sufficient staimina
+
+4/22/2013 - 2.5 hours
+>Added sound effects
+>Added spawning of cows to maintain 5-6 on board at all times
+>Added protection against cows spawning on top of each other (but not fixed)
+>Added 2 second invulnerability of cows when just spawned
+>Fixed monster eating invulnerable cows
+>Fixed hole in top left corner for cows and monster
+>Added time penalty for cows being eaten
+>Fixed bug of using attack in fence area, making so monster can never reach food
+>Adjusted time bonus per cow from 5 to 3 seconds to add challenge
+
+4/23/2013 - 4 hours
+>Added graphics to field and safeZone
+>Updated graphics of powerups
+>Tweaked powerup display
+>Created splash graphics
+>Added splash screen + instructions screen
+>Added score goals -> Can move up levels now!
+>Added score drawing and special getmove for between levels
+>Fixed bug with timer not filling up correctly between levels
+
+4/24/2013 - 1 hours
+>Fixed speed bug
+>Fixed monster frozen between levels bug
+>Fixed drifting after upgrading
+>Fixed monster bumping against wall bug
+>Prevent crash from timer running out
+>Setting up for game over screen and interaction
+
+4/25/2013 - 2 hours
+>Created gameover graphic
+>Implemented game over and reset to start screen
+>Moved globals into reinitiate values to allow new game creation
+>Manually added level goals to prevent exponential difficulty
+>Added monster slowly getting more dangerous as level increases
+>Fixed stat display to show current attack level
+>Removed animal invulnerability to prevent bugs (may reimplement)
+
+4/26/2013 - 1 hours
+>Changed pen so that touching it causes animal to score rather than having to drop it
+>Added arrow help for levels 1, 2, 3 when holding animal -> SHOWS GOAL
+
+4/27/2013 - 2 hours
+>Added tip display for levels 1,2,3,4 to remind about controls/goals
+>Added level sensitivity for certain tips
+>Added graphic rendering for fire attack
+>Added fire attack
+>Added slowing speed for monster when inside fire attack
+>Fixed freezing no longer working
+>Fixed invulnerability bug in between levels
+
+4/28/2013 - 1 hours
+>Rewrote animal spawn code -> fixed animals spawning on top of each other bug
+>Wrote readme
